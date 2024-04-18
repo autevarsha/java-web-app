@@ -6,7 +6,7 @@ WORKDIR /usr/local/tomcat
 RUN mv webapps.dist/* webapps
 
 
-COPY target/welcomeapp.war webapps/
+COPY target/welcomeapp.war webapps
 
 EXPOSE 8080
 
